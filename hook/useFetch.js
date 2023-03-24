@@ -25,8 +25,8 @@ const fetchData = async () => {
     setIsLoading(true);
 
     try {
-        const reponse = await axios.request(options);
-        setData(reponse.data.dta);
+        const response = await axios.request(options);
+        setData(response.data.dta);
         setIsLoading(false);
     } catch (error) {
         setError(error);
