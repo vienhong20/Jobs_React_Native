@@ -21,6 +21,10 @@ const JobDetails = () => {
 
     const onRefresh = () => {}
 
+    const displayTabContent = () => {
+        
+    }
+
     return (
         <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite}}>
             <Stack.Screen
@@ -66,8 +70,9 @@ const JobDetails = () => {
                             tabs={tabs}
                             activeTab={activeTab}
                             setActiveTab={setActiveTab}
-                        
                         />
+
+                        {displayTabContent()}
                     </View>
                 )}
             </ScrollView>
