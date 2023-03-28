@@ -1,5 +1,12 @@
 # Expo Router Example
 
+
+
+https://expo.dev/@vinceh/JobIt?serviceType=classic&distribution=expo-go
+
+
+
+
 Use [`expo-router`](https://expo.github.io/router) to build native navigation using files in the `app/` directory.
 
 ## 🚀 How to use
